@@ -24,13 +24,13 @@ For option 2 (Google Colab) there are several steps, unfortunately, before you c
 
   1. On the left edge of the page, there is a small folder icon. If you click on that it opens up a Files browser (you might have to wait a few seconds for it to load). At the top of the new browser is another folder icon, this time with the Drive logo. If you click on this, it will create a new cell in your notebook with some code you can execute to mount your Drive. The code looks like this
 
-    ```from google.colab import drive```
-    ```drive.mount('/content/drive')```
+>     from google.colab import drive
+>     drive.mount('/content/drive')
 
   2. Execute the new cell. It will launch a new tab that you can use to authorize access to your Drive folder. After you agree to authorize, you have to copy an auth code. Once it is copied, go back to your Colab notebook. Paste the auth code in the space provided in the Colab notebook (in the output of the cell you executed to mount your Drive).
 
   3. You need to change your directory (within the notebook) to where you copied the Github repo in your Drive folder. You can do this with the following command (in a new cell)
 
-    ```%cd /content/drive/<path to your repo folder>```
+>   %cd /content/drive/`<path to your repo folder>`
 
   where `<path to your repo folder>` is the path. If you navigate to your folder in the Files browser in the Colab notebook, you can right click on the folder icon to get an option to copy the path. Then you can simply past it into place in the above command.
