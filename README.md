@@ -20,7 +20,6 @@ You are free to use whatever you want (R, Python, Matlab, etc). I have three rec
   1. Binder (click the link; be patient it might take a few minutes to launch)
 
   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/newby-jay/SSC_Workshop_2021/HEAD)
-
   Note that you need to remember to periodically save any notebooks you write to your local machine. Eventually, the server that Binder sets up for you to use will "time out" and all your files will be lost.
   2. Download and install Anaconda, which will allow you to run Jupyter notebooks locally on your machine. https://www.anaconda.com/products/individual#Downloads
   3. Download this repo into your Google Drive folder and use Google Colab. https://research.google.com/colaboratory/
