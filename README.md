@@ -2,11 +2,10 @@
 
 ## Schedule:
 ### (all times eastern)
-    11:00 - 12:00 Introductions
-    12:00 - 12:30 Form groups
-    12:30 - 1:00 Break 1
-    1:00 - 2:30 Group work
-    2:30 - 3:00 Break 2
+    1:00 - 1:30 Introductions
+    1:30 - 2:00 Form groups
+    2:00 - 2:30 Group work
+    2:30 - 3:00 Break
     3:00 - 4:00 Group work
     4:00 - 5:00 Informal presentations
 
