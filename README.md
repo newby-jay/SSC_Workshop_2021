@@ -16,11 +16,16 @@ There are two basic ingredients for particle tracking: (1) microscopy videos of 
 This workshop assumes a basic understanding of probability and stochastic processes. Some amount of programming will be involved in all of the projects (students with complementary skills will be encouraged to form teams). We will primarily be using Python (but R, Julia, or C++ might be ok too). Students will need to bring a laptop or tablet equipped with a keyboard. The only required software is the Google Chrome internet browser with a Gmail or other Google account logged in. 
 
 ## Recommended software:
-You are free to use whatever you want (R, Python, Matlab, etc). I have two recommendations (I think the first is the best option).
-  1. Download and install Anaconda, which will allow you to run Jupyter notebooks locally on your machine. https://www.anaconda.com/products/individual#Downloads
-  2. Download this repo into your Google Drive folder and use Google Colab. https://research.google.com/colaboratory/
+You are free to use whatever you want (R, Python, Matlab, etc). I have three recommendations (I think the first is the best option).
+  1. Binder (click the link; be patient it might take a few minutes to launch)
 
-For option 2 (Google Colab) there are several steps, unfortunately, before you can work with the local files. You must first "mount" your google drive. Then change your directory from within the Colab notebook to the repository folder that has the code and data files. This can be done as follows.
+  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/newby-jay/SSC_Workshop_2021/HEAD)
+
+  Note that you need to remember to periodically save any notebooks you write to your local machine. Eventually, the server that Binder sets up for you to use will "time out" and all your files will be lost.
+  2. Download and install Anaconda, which will allow you to run Jupyter notebooks locally on your machine. https://www.anaconda.com/products/individual#Downloads
+  3. Download this repo into your Google Drive folder and use Google Colab. https://research.google.com/colaboratory/
+
+For option 3 (Google Colab) there are several steps, unfortunately, before you can work with the local files. You must first "mount" your google drive. Then change your directory from within the Colab notebook to the repository folder that has the code and data files. This can be done as follows.
 
   1. On the left edge of the page, there is a small folder icon. If you click on that it opens up a Files browser (you might have to wait a few seconds for it to load). At the top of the new browser is another folder icon, this time with the Drive logo. If you click on this, it will create a new cell in your notebook with some code you can execute to mount your Drive. The code looks like this
 
@@ -31,6 +36,6 @@ For option 2 (Google Colab) there are several steps, unfortunately, before you c
 
   3. You need to change your directory (within the notebook) to where you copied the Github repo in your Drive folder. You can do this with the following command (in a new cell)
 
->   %cd /content/drive/`<path to your repo folder>`
+  >   %cd /content/drive/`<path to your repo folder>`
 
   where `<path to your repo folder>` is the path. If you navigate to your folder in the Files browser in the Colab notebook, you can right click on the folder icon to get an option to copy the path. Then you can simply past it into place in the above command.
